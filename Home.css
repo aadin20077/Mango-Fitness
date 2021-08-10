@@ -1,0 +1,133 @@
+/* General Code */
+
+html{
+    padding: 1em 6em;
+    padding-bottom: 200em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: #228B22;
+    border-style: solid;
+    z-index: 4;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Desktop Version Source Code of CSS */
+
+@media (min-width: 630px){
+.navigation{
+    position: sticky;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    bottom: 0.2em;
+    background-color: #FFDC00;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-top: 0.4em;
+    border-radius: 0.2em;
+    box-shadow: 3px 3px 1px 1px grey;
+    font-family: 'Arvo', serif;
+}
+.home,.about-me,.suggestions{
+    color:#111111;
+    transition: all 0.4s ease;
+}
+.home:hover,.about-me:hover,.suggestions:hover{
+    color: #228B22;
+    border-style: solid;
+    padding: 0.2em;
+}
+.mango-logo{
+    position: relative;
+    float: right;
+    right: 24.5em;
+    top: 4em;
+}
+.intro-page{
+    position: relative;
+    top: 12em;
+    float: right;
+    right: 18em;
+    background-color:whitesmoke;
+    box-shadow: 2px 4px 4px 2px grey;
+    border-radius: 20px;
+    padding-left: 4em;
+    width: 70%;
+    margin: 0;
+    font-size: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    cursor: text;
+}
+.search{
+    position: relative;
+    float: right;
+    left: 39.7em;
+    top: 6.5em;
+    z-index: 2;
+}
+.search:hover{
+    cursor: pointer;
+}
+.second-part-header{
+    position: relative;
+    float: right;
+    top: 18em;
+    text-align: center;
+    left: 24em;
+    font-family: 'Arvo', serif;
+    font-weight: 0.5em;
+    background-color: #FFDC00;
+    border-radius: 0.2em;
+    box-shadow: 3px 3px 1px 1px grey;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.error{
+    position: relative;
+    bottom: 4.5em;
+}
+.first-article{
+    position: relative;
+    width: 25em;
+    font-size: 1.1em;
+    top: 40em;
+    font-family: 'Arvo', serif;
+    color: white;
+    background-color: #001f3f;
+    border-radius: 1em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    z-index: 1;
+    display: block;
+}
+.first-article-head{
+    position: relative;
+    text-align: center;
+    right: 0.8em;
+    bottom: 2em;
+    background-color: #FFDC00;
+    width: 6em;
+    border-radius: 0.4em;
+    color: black;
+    margin: 0;
+    float: right;
+    bottom: 17em;
+    right: 8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    z-index: 9;
+    display: block;
+}
+
+}
